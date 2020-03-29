@@ -8,6 +8,12 @@ I'm expecting that the MoH will eventually provide their database to the public 
 
 The original data comes from the Ministry of Health, whose data is copyright under Creative Commons Attribution 4.0 International Licence. These files are copyright the same.
 
+## Changelog
+
+### 23 March 2020
+
+The Ministry of Health changed their file format to be a spreadsheet with both Confirmed and Probable cases as two sheets within the same file. To match that and make things simpler, the data here is now in a single file with two keys: `confirmed` and `probable`. The filename has also changed so it is descriptive outside of this repo's context.
+
 ## Contributing
 
 If you see any issues with the data compared with the official data, or anything is out of date, please [raise an issue](https://github.com/philiprenich/nz-covid19-data/issues) or reach out to [me on Twitter](https://twitter.com/philiprenich).
@@ -17,3 +23,4 @@ If you see any issues with the data compared with the official data, or anything
 New Zealand's [Ministry of Health](https://www.health.govt.nz).
 
 Inspired by the New York Time's [repository](https://github.com/nytimes/covid-19-data) for US Covid-19 data.
+
