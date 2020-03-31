@@ -10,6 +10,10 @@ The original data comes from the Ministry of Health, whose data is copyright und
 
 ## Changelog
 
+### 31 March 2020
+
+The "confirmed" and "probable" keys are now always lowercase, regardless of what case the original spreadsheet used.
+
 ### 23 March 2020
 
 The Ministry of Health changed their file format to be a spreadsheet with both Confirmed and Probable cases as two sheets within the same file. To match that and make things simpler, the data here is now in a single file with two keys: `confirmed` and `probable`. The filename has also changed so it is descriptive outside of this repo's context.
